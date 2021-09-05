@@ -11,7 +11,8 @@ Module Module1
         Dim num1 As Double
         Dim num2 As Double
         Dim choice As String
-        Console.WriteLine("This simple program will let you add or multiply two numbers of your choice. Type the first number.")
+        Console.WriteLine("This simple program will let you add or multiply two numbers of your choice.")
+        Console.WriteLine("Type the first number.")
         num1 = Double.Parse(Console.ReadLine)
         Console.WriteLine("Type the second number.")
         num2 = Double.Parse(Console.ReadLine)
