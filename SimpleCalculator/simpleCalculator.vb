@@ -26,6 +26,7 @@ Module simpleCalculator
         Else    'If any character other than + or * is typed then the next line of code is triggered
             Console.WriteLine("Error")
         End If
+        Console.WriteLine("Press ENTER to exit.")
         Console.ReadLine()  'Provides time for user to see calculation before program ends.
     End Sub
 
