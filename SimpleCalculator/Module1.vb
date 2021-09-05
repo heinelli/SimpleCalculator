@@ -11,17 +11,16 @@ Module Module1
         Dim num1 As Double
         Dim num2 As Double
         Dim choice As String
-        Console.WriteLine("Choose a number between 0 and 9.")
+        Console.WriteLine("This simple program will let you add or multiply two numbers of your choice. Type the first number.")
         num1 = Console.ReadLine()
-        Console.WriteLine("Choose a second number between 0 and 9")
+        Console.WriteLine("Type the second number.")
         num2 = Console.ReadLine()
-        Console.WriteLine("Add or multiply these numbers?")
+        Console.WriteLine("Type + to add or type * to multiply.")
         choice = Console.ReadLine()
-
         If choice = "+" Then
-            Console.WriteLine(num1 + num2)
+            Console.WriteLine(num1 & "+" & num2 & "=" & num1 + num2)
         ElseIf choice = "*" Then
-            Console.WriteLine(num1 * num2)
+            Console.WriteLine(num1 & "*" & num2 & "=" & num1 * num2)
         Else
             Console.WriteLine("Error")
         End If
