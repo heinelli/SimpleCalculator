@@ -6,7 +6,7 @@
 
 Option Strict On
 Option Explicit On
-Module Module1
+Module simpleCalculator
 
     Sub Main()
         Dim num1 As Double  'First number from the user
